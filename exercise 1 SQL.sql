@@ -28,7 +28,7 @@ where onsale = 1;
 -- find the average price of all products
 select avg(price) from products;
 -- find all Geek Squad employees who don't have a middle initial
-select * from products 
+select * from employees 
 where title like '%geek squad%' and middleinitial is  null;
 -- find all products from the products table whose stock level is in the range -- of 500 to 1200. Order by Price from least to greatest. Hint: Use the between keyword
 select * from products 
